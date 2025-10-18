@@ -26,6 +26,10 @@
   position: relative;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
   animation: slideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  /* Ensure strong contrast on light surfaces */
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #475569;
 }
 
 @keyframes slideUp {
@@ -133,7 +137,7 @@
 .form-group label {
   display: block;
   font-weight: 700;
-  color: var(--text-primary);
+  color: var(--text-secondary);
   margin-bottom: 0.5rem;
   font-size: 0.95rem;
   letter-spacing: 0.3px;
@@ -143,7 +147,7 @@
 .form-group textarea {
   width: 100%;
   padding: 0.875rem 1.125rem;
-  border: 2px solid rgba(226, 232, 240, 0.8);
+  border: 2px solid rgba(203, 213, 225, 0.9);
   border-radius: var(--radius-md);
   font-size: 1rem;
   transition: all 0.3s ease;

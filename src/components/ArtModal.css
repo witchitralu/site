@@ -38,6 +38,10 @@
     0 25px 50px -12px rgba(0, 0, 0, 0.4),
     0 0 0 1px rgba(255, 255, 255, 0.1);
   animation: slideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  /* Better contrast on light surfaces */
+  --text-primary: #0f172a;   /* slate-900 */
+  --text-secondary: #475569; /* slate-600 */
+  --text-muted: #64748b;     /* slate-500 */
 }
 
 @keyframes slideUp {
@@ -162,8 +166,8 @@
 }
 
 .modal-artist {
-  font-size: 1.25rem;
-  color: var(--primary-color);
+  font-size: 1.125rem;
+  color: var(--primary-dark);
   font-style: italic;
   font-weight: 600;
   margin: 0;
@@ -190,7 +194,7 @@
 }
 
 .detail-label {
-  font-weight: 700;
+  font-weight: 800;
   color: var(--text-secondary);
   font-size: 0.95rem;
   text-transform: uppercase;
@@ -200,7 +204,7 @@
 .detail-value {
   color: var(--text-primary);
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .modal-description {
