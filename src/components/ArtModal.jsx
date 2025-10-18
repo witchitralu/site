@@ -13,7 +13,7 @@ const ArtModal = ({ art, onClose }) => {
     bio: 'A self-taught artist blending surrealism with scientific elements, inspired by renaissance masters and creating mystical journeys through art.',
     phone: '+91 9160321673',
     whatsappNumber: '919160321673',
-    email: 'witchitraalu@gmail.com',
+    email: 'witchitralu@gmail.com',
     location: 'Hyderabad, India',
     shipping: 'Worldwide Shipping Available'
   };

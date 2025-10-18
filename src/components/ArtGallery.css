@@ -35,7 +35,7 @@
 }
 
 .gallery-logo {
-  height: 120px;
+  height: 330px;
   width: auto;
   filter: drop-shadow(0 8px 25px rgba(0, 0, 0, 0.3));
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);

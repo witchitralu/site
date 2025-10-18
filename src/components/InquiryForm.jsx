@@ -71,7 +71,7 @@ Email: ${formData.email || 'Not provided'}
 ${formData.message || 'No additional message'}
 
 ---
-Inquiry sent from Witchitraalu Gallery`;
+Inquiry sent from Witchitralu Gallery`;
 
     // Encode message for WhatsApp
     const encodedMessage = encodeURIComponent(whatsappMessage);

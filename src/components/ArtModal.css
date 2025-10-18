@@ -73,15 +73,42 @@
   z-index: 10;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   padding: 0px 0 5px 0;
+  position: absolute;
+  overflow: hidden;
 }
 
 .modal-close:hover {
   background: rgba(0, 0, 0, 0.95);
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(90deg);
   box-shadow: 0 8px 25px -8px rgba(0, 0, 0, 0.5);
+}
+
+/* Sheen sweep on hover */
+.modal-close::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 140%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+  transition: left 0.5s ease;
+}
+
+.modal-close:hover::before {
+  left: 120%;
+}
+
+.modal-close:focus-visible {
+  outline: 2px solid rgba(255,255,255,0.6);
+  outline-offset: 2px;
+}
+
+.modal-close:active {
+  transform: scale(1.02) rotate(90deg);
 }
 
 .modal-body {

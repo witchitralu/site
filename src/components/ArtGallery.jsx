@@ -37,8 +37,8 @@ const ArtGallery = ({ artPieces, categories }) => {
     <header className="site-header" role="navigation" aria-label="Primary">
       <div className="site-header-inner">
         <a href="#top" className="header-brand">
-          <img src="/witchitraalu-logo.png" alt="Witchitraalu" className="header-logo" onError={(e) => { e.target.style.display='none'; }} />
-          <span className="header-title">Witchitraalu</span>
+          <img src="/witchitraalu-logo.png" alt="Witchitralu" className="header-logo" onError={(e) => { e.target.style.display='none'; }} />
+          <span className="header-title">Witchitralu</span>
         </a>
         <nav className="header-nav">
           <a href="#about">About</a>
@@ -176,7 +176,7 @@ const ArtGallery = ({ artPieces, categories }) => {
           <div className="footer-brand">
             <div className="footer-logo">🎨</div>
             <div>
-              <h4>Witchitraalu</h4>
+              <h4>Witchitralu</h4>
               <p>Art where surrealism meets science — by Sravya.</p>
             </div>
           </div>
@@ -188,7 +188,7 @@ const ArtGallery = ({ artPieces, categories }) => {
           </nav>
           <div className="footer-meta">
             <span>Made in India • Shipping Worldwide</span>
-            <span>© {new Date().getFullYear()} Witchitraalu</span>
+            <span>© {new Date().getFullYear()} Witchitralu</span>
           </div>
         </div>
       </footer>
