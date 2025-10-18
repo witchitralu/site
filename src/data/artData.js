@@ -3,7 +3,7 @@ export const artPieces = [
   {
     id: 1,
     title: "How Much is Too Much",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 3072,
     priceINR: 270000,
     category: "painting",
@@ -18,7 +18,7 @@ export const artPieces = [
   {
     id: 2,
     title: "Greatest Lovers You'll Never Meet",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 1480,
     priceINR: 130000,
     category: "painting",
@@ -33,7 +33,7 @@ export const artPieces = [
   {
     id: 3,
     title: "Together We Are in Harmony",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 950,
     priceINR: 85000,
     category: "painting",
@@ -48,7 +48,7 @@ export const artPieces = [
   {
     id: 4,
     title: "The Eye Contact",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 340,
     priceINR: 30000,
     category: "painting",
@@ -63,7 +63,7 @@ export const artPieces = [
   {
     id: 5,
     title: "The Electric Touch",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 340,
     priceINR: 30000,
     category: "painting",
@@ -78,7 +78,7 @@ export const artPieces = [
   {
     id: 6,
     title: "Miss Monsoon Moody",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 340,
     priceINR: 30000,
     category: "painting",
@@ -93,7 +93,7 @@ export const artPieces = [
   {
     id: 7,
     title: "The Lonely Man",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 140,
     priceINR: 14000,
     category: "painting",
@@ -108,7 +108,7 @@ export const artPieces = [
   {
     id: 8,
     title: "Stages of Grief",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 385,
     priceINR: 34000,
     category: "painting",
@@ -123,7 +123,7 @@ export const artPieces = [
   {
     id: 9,
     title: "Love, An Artform & Skillset",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 340,
     priceINR: 30000,
     category: "painting",
@@ -138,7 +138,7 @@ export const artPieces = [
   {
     id: 10,
     title: "Wake & Bake",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 480,
     priceINR: 42000,
     category: "painting",
@@ -153,7 +153,7 @@ export const artPieces = [
   {
     id: 11,
     title: "His Golden Heart",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 135,
     priceINR: 12000,
     category: "painting",
@@ -168,7 +168,7 @@ export const artPieces = [
   {
     id: 12,
     title: "The Surrealists Ensemble",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 1020,
     priceINR: 90000,
     category: "painting",
@@ -183,7 +183,7 @@ export const artPieces = [
   {
     id: 13,
     title: "Cleopatra",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 630,
     priceINR: 55000,
     category: "painting",
@@ -198,7 +198,7 @@ export const artPieces = [
   {
     id: 14,
     title: "Hecate",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 750,
     priceINR: 66000,
     category: "painting",
@@ -213,7 +213,7 @@ export const artPieces = [
   {
     id: 15,
     title: "AP vs AI",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 1140,
     priceINR: 100000,
     category: "painting",
@@ -228,7 +228,7 @@ export const artPieces = [
   {
     id: 16,
     title: "The Masculine Trilogy",
-    artist: "Witchitraalu",
+    artist: "Sravya (Witchitralu)",
     price: 1190,
     priceINR: 105000,
     category: "painting",

@@ -1,7 +1,22 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import './ArtModal.css';
+import InquiryForm from './InquiryForm';
+import ContactModal from './ContactModal';
 
 const ArtModal = ({ art, onClose }) => {
+  const [showInquiryForm, setShowInquiryForm] = useState(false);
+  const [showContactModal, setShowContactModal] = useState(false);
+
+  const artistInfo = {
+    name: 'Sravya',
+    title: 'Self-taught Artist from Hyderabad',
+    bio: 'A self-taught artist blending surrealism with scientific elements, inspired by renaissance masters and creating mystical journeys through art.',
+    phone: '+91 9160321673',
+    whatsappNumber: '919160321673',
+    email: 'witchitraalu@gmail.com',
+    location: 'Hyderabad, India',
+    shipping: 'Worldwide Shipping Available'
+  };
   // Handle escape key press
   useEffect(() => {
     const handleEscape = (e) => {
@@ -26,8 +41,17 @@ const ArtModal = ({ art, onClose }) => {
     }
   };
 
+  const handleContactClick = () => {
+    setShowContactModal(true);
+  };
+
+  const handleInquiryClick = () => {
+    setShowInquiryForm(true);
+  };
+
   return (
-    <div className="modal-backdrop" onClick={handleBackdropClick}>
+    <>
+      <div className="modal-backdrop" onClick={handleBackdropClick}>
       <div className="modal-content">
         <button className="modal-close" onClick={onClose}>
           ×
@@ -102,8 +126,8 @@ const ArtModal = ({ art, onClose }) => {
               
               {art.available && (
                 <div className="modal-actions">
-                  <button className="contact-btn">Contact Artist</button>
-                  <button className="inquiry-btn">Make Inquiry</button>
+                  <button className="contact-btn" onClick={handleContactClick}>Contact Artist</button>
+                  <button className="inquiry-btn" onClick={handleInquiryClick}>Make Inquiry</button>
                 </div>
               )}
             </div>
@@ -111,6 +135,22 @@ const ArtModal = ({ art, onClose }) => {
         </div>
       </div>
     </div>
+
+      {showContactModal && (
+        <ContactModal 
+          onClose={() => setShowContactModal(false)} 
+          artistInfo={artistInfo}
+        />
+      )}
+
+      {showInquiryForm && (
+        <InquiryForm 
+          art={art}
+          onClose={() => setShowInquiryForm(false)}
+          artistInfo={artistInfo}
+        />
+      )}
+    </>
   );
 };
 
