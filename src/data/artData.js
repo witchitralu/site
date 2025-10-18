@@ -12,7 +12,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "2 months span",
     description: "\"How Much is Too Much\" is a life-size self-portrait that captures me in my happiest state, blending reality with surrealism. I spent almost a year bringing this piece to life, and it's a true reflection of my artistic journey. The painting is filled with symbols that represent my passions – a wine glass, chess board, candle, book, paint palette, microphone, brush, and vinyl. I experimented with floating elements, like my brain and heart, and even depicted my heart as a stone and a rose quartz crystal. The rose and cannabis bud add another layer to my personality, while collages of my hands, eyes, and lips showcase my playful approach to art. This painting was a journey of self-discovery and growth, much like creating my debut album of the same name. It's a masterpiece that I'm proud to have created, and it represents the culmination of my artistic expression.",
-    image: "/src/assets/How_much_is_too_much.png",
+    image: "/How_much_is_too_much.png",
     available: true
   },
   {
@@ -27,7 +27,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "100 hours / 3 months",
     description: "\"The Greatest Lovers You Will Never Meet\" is a vibrant, surrealistic masterpiece that weaves a dreamlike narrative around the complexities of love and desire; meticulously rethought and reimagined and crafted over 100 hours to bring forth a world of mythological and folkloric character. At its core, the painting explores the multifaceted nature of love, from the unconditional devotion of Mother Mary to the passionate lust embodied by Lord Kama and the Apsaras. Vishwamitra's pursuit by an Apsara adds a touch of ancient mythology, while Cleopatra's enigmatic presence weaves a subtle thread of seduction and power. The fallen angel, accompanied by a gentle fawn, adds a poignant touch, highlighting the intricate web of human emotions. Meanwhile, Cupid's mischievous presence and the heartbroken Prince Charming inject a sense of whimsy and vulnerability. The painting's cosmic backdrop, featuring planets Venus and Mars, underscores the primordial forces that shape human connection. A ballerina playing Black Swan dances with ethereal beauty, while Medusa's hesitant gaze suggests a softer side to even the most fearsome of creatures. Jasmine from Aladdin floats effortlessly on a magic carpet, exuding tranquility, while the cursed woman's heart shaped pillow reveals the softer side of even the strongest individuals. A unicorn's presence adds a touch of magic and wonder to this surreal landscape.",
-    image: "/src/assets/1_GREATEST_LOVERS.png",
+    image: "/1_GREATEST_LOVERS.png",
     available: true
   },
   {
@@ -42,7 +42,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "75 hours",
     description: "This painting depicts a rare scene of Lord Shiva and Shakti in the form of Kali dancing together, balancing each other's energies. While traditionally Shiva is often shown as serene and isolated, and Kali as fiercely aggressive, this piece imagines them harmonizing their contrasting natures - Shiva's liberation and Kali's intensity through their dance, showcasing a unique blend of their energies. The blues and greens that form the background are a deliberate representation of bliss and the majestic colors of the mountains. Notably, this piece is distinctive in that the underpainting has been left intact as the background, adding a raw yet captivating layer to the artwork.",
-    image: "/src/assets/2_TOGETHER_WE_ARE_IN_HARMONY.png",
+    image: "/2_TOGETHER_WE_ARE_IN_HARMONY.png",
     available: true
   },
   {
@@ -57,7 +57,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "10 hours",
     description: "This painting explores the power dynamics of eye contact, a theme inspired by conversations about vulnerability and human connection. For some, eye contact can be intimidating, even feared, as it opens us up to genuine interactions and emotional exposure. As an introvert who values eye contact, I'm drawn to the complexities it reveals about human relationships and the subtle dance of connection and vulnerability.",
-    image: "/src/assets/3_THE_EYE_CONTACT.png",
+    image: "/3_THE_EYE_CONTACT.png",
     available: true
   },
   {
@@ -72,7 +72,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "10 hours",
     description: "Human touch is electric, especially that first contact with someone - whether it's a loved one, someone you admire, or even a stranger. There's something mysterious and beautiful about it. The way skin meets skin can spark a range of emotions and sensations, defying easy explanation. It's scientifically a complex phenomenon that I've tried to capture through my own feelings and experiences, conveying the weird and wonderful essence of human connection.",
-    image: "/src/assets/4_THE_ELECTRIC_TOUCH.png",
+    image: "/4_THE_ELECTRIC_TOUCH.png",
     available: true
   },
   {
@@ -87,7 +87,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "80 hours",
     description: "This piece captures my introspective and creative state during the monsoon season. As an artist, I feel most inspired during monsoons, and I'm torn between wanting to enjoy the rain and staying in to create. In my wildest imagination, I'd go on a long drive into nature, find a huge tree with a cozy shade, stack up all my mattresses, and chill all day, wrapped in comfort and tranquility. I'm a moody person, but monsoons bring out the best in me – it's a time when I feel most alive and inspired to create. This piece also depicts the art of self-love and how one should enjoy their own company and find love in little things that they like to do and find happiness within it, and it also depicts that there is always a silver lining in the grayest of days.",
-    image: "/src/assets/5_MISS_MONSOON_MOODY.png",
+    image: "/5_MISS_MONSOON_MOODY.png",
     available: true
   },
   {
@@ -102,7 +102,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "24 hours",
     description: "This piece reflects on the theme of fleeting love and the patterns of attraction that can lead to heartache. It resonates with the experiences of those who find themselves drawn to individuals who aren't good for them, often repeating cycles of pain. Based on personal experiences with past relationships, this artwork explores the nature of humanity and how those who treat others poorly are unlikely to treat you differently. People often show their true selves, and it's up to us to read between the lines and see them for who they truly are. The red background symbolizes the red flags we often miss when meeting someone, warning us of the dangers of ignoring these signs. It also touches on the elusive nature of people who are easily carried away by emotions, likening them to a passing cloud or an unresponsive presence.",
-    image: "/src/assets/6_THE_LONELY_MAN.png",
+    image: "/6_THE_LONELY_MAN.png",
     available: true
   },
   {
@@ -117,7 +117,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "100 hours",
     description: "This triple-piece painting represents the journey of grief, showcasing the emotional stages one goes through when faced with loss. From left to right, the canvases depict the initial shock, followed by sadness and heartbreak, and finally, the attainment of peace through recovery. The stages are interconnected and cannot be crossed without experiencing each one, highlighting the importance of acknowledging and working through emotions. This is a thought-provoking reflection on the human experience.",
-    image: "/src/assets/7_STAGES_OF_GRIEF.png",
+    image: "/7_STAGES_OF_GRIEF.png",
     available: true
   },
   {
@@ -132,7 +132,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "100 hours",
     description: "This double piece painting explores the intricate dynamics of giving and receiving love. Set against a rich backdrop of navy blues, purples, and violets, the painting conveys the contrasting energies of these two acts. The artwork suggests that giving love is an art form that comes naturally, while receiving love is a skill set that many struggle to master. The receiver appears to be letting go, while the giver is depicted as trying to hold on tight – a poignant irony that highlights the complexities of human relationships. Through this powerful visual narrative, the painting invites the viewer to reflect on the challenges of receiving love and the importance of self-love in navigating these complexities.",
-    image: "/src/assets/8_LOVE_AN_ARTFORM_SKILLSET.png",
+    image: "/8_LOVE_AN_ARTFORM_SKILLSET.png",
     available: true
   },
   {
@@ -147,7 +147,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "100 hours",
     description: "This painting captures the glory of solitude and silence in the morning hours, a time when having the first hours of the day to myself is precious. It depicts the warmth of sunlight, the wisps of smoke, and the aroma of coffee in a unique, off-beat way, celebrating the quiet moments that set the tone for the day.",
-    image: "/src/assets/9_WAKE_&_BAKE.png",
+    image: "/9_WAKE_&_BAKE.png",
     available: true
   },
   {
@@ -162,7 +162,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "100 hours",
     description: "This painting represents the paradox of guarding one's heart like precious gold, only to have it ache from loneliness. It depicts the irony of protecting one's emotions so fiercely that even a gentle gesture, like a sweet embrace, is met with resistance, ultimately leading to isolation and longing.",
-    image: "/src/assets/10_HIS_GOLDEN_HEART.png",
+    image: "/10_HIS_GOLDEN_HEART.png",
     available: true
   },
   {
@@ -177,7 +177,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "100 hours",
     description: "This painting brings together some of my greatest inspirations - Michelangelo, Frida Kahlo, Raja Ravi Varma, Salvador Dali, Leonardo da Vinci, Vincent Van Gogh, Pablo Picasso, and Artemisia Gentileschi. As an artist, I draw from the abstractism of Picasso, the emotional depth of Van Gogh, and the cultural roots of Raja Ravi Varma. Like Frida, I often explore self-portraiture, while Dali's surrealism inspires me to dive into the subconscious. Gentileschi's pioneering spirit and mastery also resonate deeply with me. The piece is a culmination of my admiration for these masters, created spontaneously without planning or intent, yet radiating a powerful impact.",
-    image: "/src/assets/11_THE_SURREALISTS_ENSEMBLE.png",
+    image: "/11_THE_SURREALISTS_ENSEMBLE.png",
     available: true
   },
   {
@@ -192,7 +192,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "200 hours",
     description: "This vibrant Nubian blue painting is my interpretation of Cleopatra, the ancient Egyptian queen who epitomized both masculine strength and feminine allure. As a ruler, public figure, and influencer, Cleopatra masterfully navigated the complexities of politics and desire, leaving a lasting legacy that has endured for centuries. The indigo hues, reminiscent of Nubian culture's rich traditions and symbolism of blue gold, the subtle inclusion of the pyramids in the composition serves as a testament to her historical significance and the grandeur. With a regal cat by her side, a symbol of ancient Egyptian reverence, Cleopatra exudes confidence, intelligence, and a deep understanding of the games of power. This painting captures the essence of a true legend, a woman who defied conventions and shaped history with her presence.",
-    image: "/src/assets/12_CLEOPATRA.png",
+    image: "/12_CLEOPATRA.png",
     available: true
   },
   {
@@ -207,7 +207,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "200 hours",
     description: "Under the dark, mysterious glow of the full moon, a woman sits in deep communion with the divine feminine, summoning the ancient power of Hecate. With her two loyal cats by her side, she embodies the mystical and intuitive connection to the universe, calling upon the goddess's guidance and wisdom. This painting captures the essence of a full moon ritual, where the boundaries between reality and the unknown are blurred, and the practitioner seeks to manifest abundance and tap into the ancestral wisdom that surrounds us. The darkness of the night is illuminated only by the moon's gentle light, symbolizing the inner knowing and intuition that Hecate inspires. As the woman weaves her spell, she's accompanied by the spirits of her ancestors, who whisper secrets and offer their support in the pursuit of her desires.",
-    image: "/src/assets/13_HECATE.png",
+    image: "/13_HECATE.png",
     available: true
   },
   {
@@ -222,7 +222,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "1000 hours",
     description: "In this thought-provoking piece, a primal ape stands face-to-face with a robotic AI, holding an apple – a symbol of knowledge and temptation. The juxtaposition of the two figures raises questions about the trajectory of human evolution and the role of technology in our lives. As AI assumes a dominant position, the ape's primal strength seems no match for the robot's calculated intelligence. The subtle inclusion of DNA helices in the background, seemingly rewired and manipulated, hints at the profound impact of AI on the very fabric of human biology. The planet itself appears to be in turmoil, with planetary elements fragmented and distorted, reflecting the chaos that ensues when human innovation surpasses control. The multidimensional time streams swirling in the background add to the sense of disorientation, suggesting that the consequences of AI's rise will be felt across the vast expanse of time and space. As the ape and AI lock gazes, the viewer is forced to confront the possibility that humanity's dominance is fleeting, and that the future may belong to the machines. This painting challenges the viewer to rethink the consequences of technological advancement that lies ahead, and the need for humanity to reassess its relationship with technology.",
-    image: "/src/assets/15_AP_VS_AI.png",
+    image: "/15_AP_VS_AI.png",
     available: true
   },
   {
@@ -237,7 +237,7 @@ export const artPieces = [
     year: 2024,
     timeSpent: "200 hours / 2 months",
     description: "This captivating piece, the trilogy, Brahma, Vishnu and Shiva – are depicted in a harmonious convergence of spiritual and scientific perspectives. Brahma, the creator, is shown bringing forth life and order, symbolizing the emergence of complexity and consciousness. Vishnu, the preserver, embodies the forces of balance and maintenance, ensuring the continuity of existence. Maheshwara, the destroyer, represents the transformative power of dissolution and renewal, underscoring the cyclical nature of life and the universe. Set against the majestic backdrop of the Himalayas and the sacred river Ganga, the painting weaves together the mythological and the natural world. The inclusion of the plant and human life cycles in the composition highlights the intricate web of creation, growth, and transformation that the Trimurti oversee. The soothing blues that dominate the palette evoke a sense of serenity and timelessness, reflecting the eternal and universal principles that these deities represent. By integrating scientific and mythological themes, the painting invites the viewer to contemplate the deeper connections between the cosmos, nature, and human existence. The Trimurti's depiction serves as a powerful reminder of the interconnectedness of creation, preservation, and destruction – the eternal dance that shapes the universe. As the three aspects of the divine work in harmony, they illustrate the delicate balance that sustains life and the cosmos, testifying to the richness of Hindu mythology and its relevance to understanding the fundamental forces that govern our world.",
-    image: "/src/assets/16_THE_MASCULINE_TRIOLOGY.png",
+    image: "/16_THE_MASCULINE_TRIOLOGY.png",
     available: true
   }
 ];
