@@ -69,6 +69,13 @@ const ArtModal = ({ art, onClose }) => {
                 <span className="detail-value">{art.year}</span>
               </div>
               
+              {art.timeSpent && (
+                <div className="detail-group">
+                  <span className="detail-label">Time Spent:</span>
+                  <span className="detail-value">{art.timeSpent}</span>
+                </div>
+              )}
+              
               <div className="detail-group">
                 <span className="detail-label">Category:</span>
                 <span className="detail-value">
@@ -84,7 +91,10 @@ const ArtModal = ({ art, onClose }) => {
             
             <div className="modal-footer">
               <div className="modal-price-section">
-                <span className="modal-price">${art.price.toLocaleString()}</span>
+                <span className="modal-price">
+                  ${art.price.toLocaleString()}
+                  {art.priceINR && <span className="price-inr-modal"> / ₹{art.priceINR.toLocaleString()}</span>}
+                </span>
                 <span className={`modal-status ${art.available ? 'available' : 'sold'}`}>
                   {art.available ? 'Available' : 'Sold'}
                 </span>

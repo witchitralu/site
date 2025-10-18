@@ -23,7 +23,10 @@ const ArtCard = ({ art, onViewDetails }) => {
         <p className="art-medium">{art.medium}</p>
         <p className="art-dimensions">{art.dimensions}</p>
         <div className="art-price-container">
-          <span className="art-price">${art.price.toLocaleString()}</span>
+          <span className="art-price">
+            ${art.price.toLocaleString()}
+            {art.priceINR && <span className="price-inr"> / ₹{art.priceINR.toLocaleString()}</span>}
+          </span>
           {art.available && <span className="availability-badge">Available</span>}
         </div>
         

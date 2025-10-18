@@ -173,6 +173,14 @@
   color: #2d3748;
 }
 
+.price-inr-modal {
+  font-size: 1.2rem;
+  color: #718096;
+  font-weight: normal;
+  display: block;
+  margin-top: 0.25rem;
+}
+
 .modal-status {
   padding: 0.5rem 1rem;
   border-radius: 25px;

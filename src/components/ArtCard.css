@@ -97,6 +97,14 @@
   color: #2d3748;
 }
 
+.price-inr {
+  font-size: 1rem;
+  color: #718096;
+  font-weight: normal;
+  display: block;
+  margin-top: 0.25rem;
+}
+
 .availability-badge {
   background: #48bb78;
   color: white;
